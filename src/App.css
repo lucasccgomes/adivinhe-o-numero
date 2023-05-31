@@ -5,3 +5,49 @@
   text-align: center;
 }
 
+
+.bot img {
+  max-width: 130px;
+}
+
+.bot {
+  display: flex;
+  justify-content: center;
+}
+
+.fala-bot {
+  display: flex;
+  align-items: center;
+  margin-left: -20px;
+}
+
+input {
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 1.5em;
+  text-align: center;
+  max-width: 63px;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+button {
+  min-height: 30px;
+}
+
+.palpite {
+  display: flex;
+  justify-content: center;
+}
+
+.result-palpite {
+  font-size: 1.5em;
+}
+
+.reset {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
