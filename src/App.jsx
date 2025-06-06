@@ -15,7 +15,7 @@ function handleKeyDown(event) {
 
 function App() {
   useEffect(() => {
-    init();
+    reset();
   }, []);
 
   return (
@@ -27,8 +27,8 @@ function App() {
           <p className='fala-bot'>Olá eu selecionei um número entre 1 e 999 e quero que você adivinhe qual escolhi.</p>
         </div>
         <div className="palpite">
-          <label for='palpite'>Seu palpite aqui: </label>
-          <input id='palpite' type='number' min="1" max="999" onKeyPress={checkForEntry} onKeyDown={handleKeyDown} autofocus />
+          <label htmlFor='palpite'>Seu palpite aqui: </label>
+          <input id='palpite' type='number' min="1" max="999" onKeyPress={checkForEntry} onKeyDown={handleKeyDown} autoFocus />
           <button id='button' onClick={compareGuess}>Check</button>
         </div>
         <p></p>
